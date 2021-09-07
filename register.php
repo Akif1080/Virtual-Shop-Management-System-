@@ -77,6 +77,7 @@ if(empty($f_name) || empty($l_name) || empty($email) || empty($password) || empt
 				<b>password is not same</b>
 			</div>
 		";
+		exit();
 	}
 	if(!preg_match($number,$mobile)){
 		echo "
